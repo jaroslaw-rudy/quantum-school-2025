@@ -1,0 +1,20 @@
+name: hackaton
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - matplotlib
+  - python=3.11.13
+  - ipykernel
+  - numpy
+  - pandas
+  - tqdm
+  - pip:
+      - iqm-client==29.14.0
+      - iqm-data-definitions==2.15
+      - iqm-exa-common==26.33.0
+      - iqm-station-control-client==9.8.0
+      - qiskit==1.2.4
+      - qiskit-aer==0.15.1
+      - pylatexenc
